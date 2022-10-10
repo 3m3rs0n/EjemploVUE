@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <ColorButton msg="Cambiar color" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import ColorButton from './components/colorButton.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    ColorButton,
+  },
+};
 </script>
 
 <style>
